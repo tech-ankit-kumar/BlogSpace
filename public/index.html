@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BlogSpace — share ideas, stories, and what you're learning.">
+  <title>BlogSpace — Ideas worth sharing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="dot"></span> A little space for big ideas <span class="announcement-arrow">↗</span></div>
+  <header class="header">
+    <a class="brand" href="/"><span class="brand-mark">b.</span> blogspace</a>
+    <nav><a href="#stories">Explore</a><a href="#topics">Topics</a><a href="#about">About</a><a href="#faq">FAQ</a></nav>
+    <div id="headerActions" class="header-actions"><button class="btn quiet" data-open-auth="login">Log in</button><button class="btn dark" data-open-auth="register">Get started ↗</button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div><div class="eyebrow">— YOUR IDEAS, YOUR CORNER OF THE INTERNET</div><h1>Good ideas<br>deserve <em>to be read.</em></h1>
+        <p class="hero-copy">A calm corner to share what you're learning, the stories you can't stop thinking about, and the ideas worth passing on.</p>
+        <div class="hero-actions"><a class="btn dark large" href="#stories">Explore stories ↘</a><button class="btn outline large" data-start-writing>Start writing ✳</button></div>
+        <div class="proof"><span class="avatar">R</span><span class="avatar avatar2">A</span><span class="avatar avatar3">M</span><p><b>Curious minds welcome.</b><br>Come as you are, write what you know.</p></div>
+      </div>
+      <div class="art"><div class="art-card"><div class="art-top">FIELD NOTES / 001 <span>✳</span></div><div class="landscape"><i class="sun"></i><i class="hill one"></i><i class="hill two"></i></div><small>A NOTE TO SELF</small><div class="art-title">Make room<br>for wonder.</div><div class="art-bottom">WORDS BY YOU <span>EST. TODAY</span></div></div><div class="floating top">✦ Think freely</div><div class="floating bottom">Made for the curious ♡</div></div>
+    </section>
+    <section class="stats"><div><b>01</b> Write your way</div><div><b>02</b> Find your people</div><div><b>03</b> Keep learning</div><p>A small start can<br>lead somewhere big. ↗</p></section>
+    <section class="stories" id="stories">
+      <div class="section-heading"><div><div class="eyebrow">— THE READING ROOM</div><h2>Fresh off the <em>press.</em></h2><p>Ideas, notes, and little discoveries from the community.</p></div><button id="writePostBtn" class="btn dark">Write a story ↗</button></div>
+      <div class="toolbar"><label class="search">⌕ <input id="searchInput" type="search" placeholder="Search stories, ideas, people..." aria-label="Search stories"></label><label class="filter">Topic <select id="categoryFilter"><option value="all">All topics</option><option>Development</option><option>Design</option><option>Career</option><option>Life</option><option>Announcements</option><option>General</option></select></label><label class="filter">Sort <select id="sortFilter"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="popular">Most liked</option></select></label><button id="savedFilterBtn" class="btn outline saved-filter" type="button" aria-pressed="false">♡ Saved stories</button></div>
+      <p id="statusMessage" class="status" role="status"></p><p id="resultsMeta" class="results-meta" aria-live="polite"></p><div id="postsGrid" class="posts-grid"><div class="empty">Gathering good ideas ✳</div></div>
+      <div class="bottom-note">✳ &nbsp; That's the latest. Go make something worth sharing.</div>
+    </section>
+    <section class="topics-section" id="topics">
+      <div class="section-heading"><div><div class="eyebrow">— FOLLOW YOUR CURIOSITY</div><h2>A topic for every <em>kind of mind.</em></h2><p>Pick an interest and find a fresh perspective, a practical tip, or an idea that stays with you.</p></div></div>
+      <div class="topic-grid">
+        <button class="topic-card topic-violet" data-topic="Development"><span class="topic-icon">⌘</span><strong>Development</strong><span>Code, tools, side projects and lessons from building.</span><b>Explore topic ↗</b></button>
+        <button class="topic-card topic-lime" data-topic="Design"><span class="topic-icon">✳</span><strong>Design</strong><span>Visual ideas, creative process and thoughtful experiences.</span><b>Explore topic ↗</b></button>
+        <button class="topic-card topic-peach" data-topic="Career"><span class="topic-icon">↗</span><strong>Career</strong><span>Work, interviews, learning paths and growing with purpose.</span><b>Explore topic ↗</b></button>
+        <button class="topic-card topic-blue" data-topic="Life"><span class="topic-icon">♡</span><strong>Life & learning</strong><span>Everyday observations, habits and things worth remembering.</span><b>Explore topic ↗</b></button>
+      </div>
+    </section>
+    <section class="how-section" id="how-it-works">
+      <div class="how-intro"><div class="eyebrow">— SIMPLE BY DESIGN</div><h2>From first thought<br>to <em>shared story.</em></h2><p>You don't need to be an expert or a professional writer. Start with something you know, something you're learning, or a question you're still figuring out.</p><button class="btn dark" data-start-writing>Write your first story ↗</button></div>
+      <div class="steps-list">
+        <article class="step-item"><span>01</span><div><h3>Make yourself at home</h3><p>Create a free account to keep your stories connected to you.</p></div></article>
+        <article class="step-item"><span>02</span><div><h3>Write what matters to you</h3><p>Choose a topic, give your story a title, and share your point of view.</p></div></article>
+        <article class="step-item"><span>03</span><div><h3>Find ideas worth keeping</h3><p>Explore stories, leave thoughtful comments, like a post, or save it for later.</p></div></article>
+      </div>
+    </section>
+    <section class="about-section" id="about">
+      <div class="about-visual"><div class="about-stamp">A SPACE<br>TO THINK<br><em>OUT LOUD.</em></div><div class="about-note">Curiosity looks good on you. ✳</div></div>
+      <div class="about-copy"><div class="eyebrow">— A LITTLE ABOUT BLOGSPACE</div><h2>Big ideas begin<br>with <em>small beginnings.</em></h2>
+        <p>BlogSpace is a welcoming home for ideas in progress. It's a place to share what you're learning, document your journey, explain something you love, or simply put a thought into words.</p>
+        <p>We believe writing isn't only for experts. A short lesson from a beginner can help another beginner; a personal observation can spark a conversation; and a project recap can make the next person's path a little easier.</p>
+        <div class="about-values"><div><b>Our mission</b><span>Make sharing ideas feel simple, useful and welcoming.</span></div><div><b>Our vision</b><span>A community where curiosity matters more than perfection.</span></div><div><b>Our values</b><span>Be thoughtful, stay open-minded, and give credit to learning.</span></div><div><b>Built for creators</b><span>Write, discover, discuss and save stories in one place.</span></div></div>
+        <p class="about-tech"><b>Made with:</b> HTML · CSS · JavaScript · Node.js · Express · JSON storage</p>
+      </div>
+    </section>
+    <section class="faq-section" id="faq">
+      <div class="faq-heading"><div class="eyebrow">— GOOD QUESTIONS</div><h2>A few things you<br>might be <em>wondering.</em></h2><p>New here? Here's the short version.</p></div>
+      <div class="faq-list">
+        <details><summary>What can I publish on BlogSpace?<span>＋</span></summary><p>Share tutorials, project notes, design ideas, career lessons, personal reflections, or anything useful and respectful that you'd like others to read.</p></details>
+        <details><summary>Do I need an account to read stories?<span>＋</span></summary><p>You can browse and search stories without signing in. An account is needed to publish, like, bookmark, or comment.</p></details>
+        <details><summary>Can I edit or remove my story?<span>＋</span></summary><p>Yes. Sign in and open a story you wrote to find the edit and delete options. Please review carefully before deleting because that action cannot be undone.</p></details>
+        <details><summary>How do saved stories work?<span>＋</span></summary><p>Use the save icon on a story to bookmark it. Sign in and choose “Saved stories” to find your reading list again.</p></details>
+        <details><summary>What is this project built with?<span>＋</span></summary><p>The interface uses HTML, CSS and vanilla JavaScript. The server runs on Node.js and Express, with JSON-file storage for this demo so a separate database server is not required.</p></details>
+      </div>
+    </section>
+    <section class="join" id="join"><div class="join-star">✳</div><div><small>YOUR TURN, CREATOR</small><h2>Every expert was once<br><em>a beginner.</em></h2><p>Share your process. Ask a question. Start a conversation. Your first story doesn't have to be perfect — it just has to be yours.</p></div><button class="btn light large" data-start-writing>Find your voice ↗</button></section>
+  </main>
+  <footer><div class="footer-main"><div class="footer-brand"><a class="brand" href="/"><span class="brand-mark">b.</span> blogspace</a><p>A little space for big ideas. Write what you're learning, discover another point of view, and leave the internet a little more thoughtful.</p></div><div class="footer-links"><b>Explore</b><a href="#stories">Latest stories</a><a href="#topics">Browse topics</a><a href="#how-it-works">How it works</a></div><div class="footer-links"><b>About</b><a href="#about">Our story</a><a href="#faq">FAQs</a><button type="button" data-start-writing>Start writing ↗</button></div></div><div class="footer-bottom"><span>Built with curiosity & a little code.</span><span>© <span id="year"></span> BlogSpace · Keep learning, keep sharing.</span></div></footer>
+
+  <div class="backdrop" id="authModal" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><button class="close" data-close-modal aria-label="Close">×</button><div class="brand-mark modal-mark">b.</div><div class="eyebrow">YOUR NEXT CHAPTER</div><h2 id="authTitle">Welcome back.</h2><p id="authSubtitle">Pick up where your curiosity left off.</p><div class="tabs"><button class="tab active" data-auth-tab="login">Log in</button><button class="tab" data-auth-tab="register">Create account</button></div>
+    <form id="authForm"><div class="field" id="nameField" hidden><label for="authName">Your name</label><input id="authName" name="name" maxlength="40" autocomplete="name" placeholder="What should we call you?"></div><div class="field"><label for="authEmail">Email address</label><input id="authEmail" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div><div class="field"><label for="authPassword">Password</label><input id="authPassword" name="password" type="password" minlength="8" autocomplete="current-password" required placeholder="At least 8 characters"></div><p id="authError" class="error" role="alert"></p><button class="btn dark full" id="authSubmit" type="submit">Log in ↗</button></form><p class="fineprint">Be kind. Stay curious.</p>
+  </section></div>
+  <div class="backdrop" id="postModal" hidden><section class="modal wide" role="dialog" aria-modal="true" aria-labelledby="postModalTitle"><button class="close" data-close-modal aria-label="Close">×</button><div class="eyebrow">PUT IT INTO WORDS</div><h2 id="postModalTitle">Write a story.</h2><p>It doesn't have to be perfect. It just has to be yours.</p><form id="postForm"><input type="hidden" id="postId"><div class="field"><label for="postTitle">Story title</label><input id="postTitle" maxlength="100" minlength="5" required placeholder="A title that makes someone curious"></div><div class="field"><label for="postCategory">Topic</label><select id="postCategory"><option>Development</option><option>Design</option><option>Career</option><option>Life</option><option>Announcements</option><option>General</option></select></div><div class="field"><label for="postContent">Your story</label><textarea id="postContent" rows="8" maxlength="10000" minlength="20" required placeholder="Start with a thought, a question, or something you learned..."></textarea><small>At least 20 characters.</small></div><p id="postError" class="error" role="alert"></p><button class="btn dark full" id="postSubmit" type="submit">Publish story ↗</button></form></section></div>
+  <div class="backdrop" id="detailModal" hidden><section class="modal wide" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><button class="close" data-close-modal aria-label="Close">×</button><div id="detailBody"></div></section></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>

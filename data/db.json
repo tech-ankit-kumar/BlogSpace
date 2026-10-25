@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": "d2ac0ef7-4782-4d11-8674-0f40bc74c8a8",
+      "name": "ankit",
+      "email": "ankit@gmail.com",
+      "passwordHash": "$2a$12$WspTJi58Kr58I3ejGz6OdOtArD4Qflt5Nga8v2FOSKU5HjoZ709bO",
+      "createdAt": "2026-10-25T01:53:50.493Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "welcome",
+      "title": "Welcome to BlogSpace",
+      "content": "This is your first sample post. Create an account to publish your own stories, share what you are learning, and join the conversation. BlogSpace is a simple full-stack demo built with Node.js, Express, and JSON file storage.",
+      "category": "Announcements",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "learn-by-building",
+      "title": "Learn Full Stack by Building Projects",
+      "content": "A great way to learn web development is to build small projects from start to finish. Create a responsive interface, connect it to an API, validate user input, and document how someone else can run it. Keep improving based on feedback.",
+      "category": "Development",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-01-16T10:00:00.000Z",
+      "updatedAt": "2026-01-16T10:00:00.000Z"
+    },
+    {
+      "id": "small-project-big-lessons",
+      "title": "Small Projects Teach You More Than You Expect",
+      "content": "When learning web development, it is tempting to keep watching tutorials until everything feels familiar. But the real learning often begins when you try to build something on your own. A small project forces you to connect the pieces: the interface, the data, the user actions, and the errors you did not plan for.\n\nStart with a clear goal. Build a page that lists notes, a reading tracker, or a tiny blog. Make one feature work before adding five more. When something breaks, read the error carefully and change one thing at a time.\n\nYou do not need a perfect portfolio project on day one. A finished, understandable project with a useful README is a stronger learning milestone than a huge unfinished idea. Keep the scope small, write down what you learned, and improve it in public when you are ready.",
+      "category": "Development",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-10-22T10:00:00.000Z",
+      "updatedAt": "2026-10-22T10:00:00.000Z"
+    },
+    {
+      "id": "design-is-a-conversation",
+      "title": "Good Design Is a Conversation, Not Decoration",
+      "content": "A useful interface does more than look attractive. It helps people understand where they are, what they can do next, and what will happen when they click. Color, spacing, type, and motion are not separate ornaments; they work together to communicate a clear hierarchy.\n\nOne practical way to improve a screen is to look at it from a first-time visitor's perspective. Is the main action obvious? Are related things grouped together? Does the page explain what happens when there is no content yet? Are buttons easy to distinguish from links?\n\nTry removing one unnecessary element before adding another. Then test the page at a narrow screen width and with keyboard navigation. Thoughtful design is often the result of many small decisions that reduce confusion and make a product feel welcoming.",
+      "category": "Design",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-10-20T08:30:00.000Z",
+      "updatedAt": "2026-10-20T08:30:00.000Z"
+    },
+    {
+      "id": "document-your-learning",
+      "title": "Your Learning Notes Can Become Your Best Portfolio",
+      "content": "A portfolio does not have to be a gallery of polished screenshots. It can also show how you think. Whenever you finish a project, write a short case study: what problem you wanted to solve, which tools you chose, what was harder than expected, and what you would improve next time.\n\nBe specific. Instead of writing only that you learned JavaScript, explain how you handled form validation or updated a list without refreshing the page. If you made a mistake, include the lesson. Honest process notes make your work easier for another developer to understand.\n\nOver time, these notes become evidence of consistency and curiosity. They also help you prepare for interviews because you already have examples of decisions, trade-offs, and debugging moments to discuss.",
+      "category": "Career",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-10-18T12:00:00.000Z",
+      "updatedAt": "2026-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "the-value-of-slow-learning",
+      "title": "A Reminder to Learn at Your Own Pace",
+      "content": "Learning something new can feel uncomfortable when everyone online seems to be moving faster. It is easy to compare your first attempt with someone else's tenth year of practice. That comparison rarely gives you a fair picture.\n\nChoose a pace you can return to consistently. Twenty focused minutes, a small experiment, or one page of notes can be enough to keep a habit alive. When a concept feels confusing, try explaining it in your own words or building the smallest example you can imagine.\n\nProgress is not always dramatic. Sometimes it is noticing an error sooner, asking a better question, or finally understanding a line of code that looked mysterious last week. Give yourself room to be a beginner. Curiosity grows better when it is supported by patience.",
+      "category": "Life",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-10-16T09:15:00.000Z",
+      "updatedAt": "2026-10-16T09:15:00.000Z"
+    },
+    {
+      "id": "write-for-one-reader",
+      "title": "Write for One Curious Reader",
+      "content": "When a blank page feels intimidating, imagine writing for one person who genuinely wants to understand what you learned. You do not need a grand opening or a perfect conclusion. Begin with the question that started your exploration, then walk the reader through the answer you found.\n\nUse short paragraphs and concrete examples. Explain unfamiliar terms instead of assuming everyone knows them. If your opinion changed while researching a topic, say why. A clear, honest explanation is often more useful than trying to sound impressive.\n\nBefore publishing, read the draft aloud. Remove repeated sentences, add a helpful heading if the piece is long, and check that the title tells people what they will get. Most importantly, remember that publishing is part of learning. Your first draft is a starting point, not a final verdict on your ability.",
+      "category": "General",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-10-13T14:00:00.000Z",
+      "updatedAt": "2026-10-13T14:00:00.000Z"
+    },
+    {
+      "id": "welcome-to-the-reading-room",
+      "title": "Welcome to the Reading Room",
+      "content": "BlogSpace is built around a simple idea: the internet can be a place to share useful thoughts, not just polished announcements. Browse a story that catches your eye, search by topic, and save a post when you want to return to it later.\n\nIf you have something to share, create an account and publish your first story. It could be a lesson from a project, a note about a book, a career question, or a small discovery from everyday life. You can edit your own posts, join the conversation with comments, and keep track of stories you like.\n\nThis demo project uses a lightweight Node.js and Express backend with JSON-file storage, so you can run it locally without setting up a separate database server. Start small, be kind in the comments, and help make this reading room a thoughtful corner of the internet.",
+      "category": "Announcements",
+      "authorId": "demo",
+      "authorName": "BlogSpace Team",
+      "createdAt": "2026-10-10T10:00:00.000Z",
+      "updatedAt": "2026-10-10T10:00:00.000Z"
+    },
+    {
+      "id": "0bb06499-fad0-4d60-947e-96065b22cdc7",
+      "title": "just new",
+      "content": "there are many jackjals in the the jungle and a single lion even it is single he is the king of the jungle",
+      "category": "General",
+      "authorId": "d2ac0ef7-4782-4d11-8674-0f40bc74c8a8",
+      "authorName": "ankit",
+      "createdAt": "2026-10-25T01:54:56.614Z",
+      "updatedAt": "2026-10-25T01:54:56.614Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "first-comment",
+      "postId": "welcome",
+      "userId": "demo",
+      "authorName": "BlogSpace Team",
+      "text": "Glad you're here! Create an account to add your own comments.",
+      "createdAt": "2026-01-15T11:00:00.000Z"
+    }
+  ],
+  "likes": [],
+  "bookmarks": []
+}
